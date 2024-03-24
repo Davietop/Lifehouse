@@ -27,7 +27,7 @@ import {
   NextUIProvider,
 } from "@nextui-org/react";
 
-export default function App() {
+export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
@@ -103,40 +103,42 @@ export default function App() {
             </Button>
           </NavbarItem>
           <NavbarItem>
-            <Sheet className={cn("hidden")}>
+            <Sheet className={cn("hidden ")}>
               <SheetTrigger>
                 {" "}
                 <Image alt="image" width={20} height={20} src={touch} />
               </SheetTrigger>
-              <SheetContent className={cn(fontSans.className)}>
+              <SheetContent
+                className={cn(fontSans.className, "bg-[#434334] text-white ")}
+              >
                 <SheetHeader>
                   <SheetTitle className="flex items-center justify-center flex-col">
                     <Image alt="image" src={logo} width={100} height={100} />
                   </SheetTitle>
 
-                  <SheetDescription className=" mt-6">
+                  <SheetDescription className=" mt-6 text-white">
                     Maximize Connections, Optimize Campaigns: Your Ultimate CRM
                     and Digital Marketing Partner!
-                    <div className="mt-10 flex flex-col gap-10">
+                    <div className="mt-10 text-left flex flex-col  gap-10">
                       <h1>
                         Call Us At: <br />
                         <span className="ml-10  font-bold text-base">
                           {" "}
-                          09045308923
+                          +(234) 903-224-5613
                         </span>
                       </h1>
                       <h1>
                         You Can Find Us At: <br />
                         <span className="ml-10  font-bold text-base">
                           {" "}
-                          Halk Street New York, USA - 2386
+                          Lagos Nigeria
                         </span>
                       </h1>
                       <h1>
                         Email Now: <br />
                         <span className="ml-10  font-bold text-base">
                           {" "}
-                          Info.redias@mail.com
+                          Info@lifehouse.com
                         </span>
                       </h1>
                     </div>

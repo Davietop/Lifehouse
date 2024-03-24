@@ -99,7 +99,7 @@ export default function Faq() {
             placeholder="Keywords (General, Pricing, Service)"
           />
           <Button
-            className="bg-[#283d3b] text-white "
+            className="bg-[#AD5C16] text-white "
             onClick={() => {
               if (document.querySelector("#text").value === "") return;
               setData({
@@ -127,7 +127,7 @@ export default function Faq() {
           }}
         >
           <div
-            className="bg-[#283d3b] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
+            className="bg-[#434334] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
             id="general"
           >
             <Image
@@ -142,7 +142,7 @@ export default function Faq() {
             </p>
           </div>
           <div
-            className="bg-[#283d3b] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
+            className="bg-[#434334] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
             id="service"
           >
             <Image
@@ -157,7 +157,7 @@ export default function Faq() {
             </p>
           </div>
           <div
-            className="bg-[#283d3b] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
+            className="bg-[#434334] text-white cursor-pointer shadow w-2/12 sm:w-4/12 xs:w-4/12 md:w-3/12 lg:w-2/12 xl:w-1/12 p-4 flex items-center flex-col gap-6 rounded-xl"
             id="pricing"
           >
             <Image
@@ -214,7 +214,7 @@ export default function Faq() {
           creatives support below
         </p>
         <div className="flex items-center flex-wrap mt-6 gap-10 justify-center">
-          <div className="bg-[#283d3b] text-white shadow w-2/12 sm:w-fit xs:w-fit md:w-fit lg:w-fit p-4 flex items-center flex-col rounded-xl">
+          <div className="bg-[#434334] text-white shadow w-2/12 sm:w-fit xs:w-fit md:w-fit lg:w-fit p-4 flex items-center flex-col rounded-xl">
             <Image
               src={mail.src}
               width={64}
@@ -225,7 +225,7 @@ export default function Faq() {
             <h4 className="font-bold mt-6 mb-6">info@lifehouse.com</h4>
             <p className="text-sm">Best way to answer faster</p>
           </div>
-          <div className="bg-[#283d3b] text-white shadow w-2/12 sm:w-fit xs:w-fit md:w-fit lg:w-fit p-4 flex items-center flex-col rounded-xl">
+          <div className="bg-[#434334] text-white shadow w-2/12 sm:w-fit xs:w-fit md:w-fit lg:w-fit p-4 flex items-center flex-col rounded-xl">
             <Image src={phone.src} width={64} height={64} alt="call" />
             <h4 className="font-bold  mt-6 mb-6">+(234) 903-224-5613</h4>
             <p className="text-sm">Always happy to help you</p>

@@ -1,6 +1,8 @@
 "use client";
 
-import NavComponent from "@/components/nav";
+// import NavComponent from "@/components/nav";
+
+import NavBar from "@/components/nav";
 import HeroSection from "@/components/hero";
 import HeroSectionsm from "@/components/herosm";
 import Services from "@/components/services";
@@ -14,7 +16,7 @@ import Footer from "@/components/footer";
 export default function Nav() {
   return (
     <>
-      <NavComponent />
+      <NavBar />
 
       <main>
         <div className="xs:hidden sm:hidden md:flex h-[600px] w-full bg-bg_test2 bg-cover bg-left bg-no-repeat md:h-[400px] lg:h-[500px] xl:h-[600px] ">

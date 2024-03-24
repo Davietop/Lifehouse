@@ -37,7 +37,7 @@ export default function HeroSection() {
         <Button
           // variant="flat"
           className={cn(
-            "bg-[#f15a24] w-fit p-6 font-[500] text-sm text-white",
+            "bg-[#6f4e28] w-fit p-6 font-[500] text-sm text-white",
             fontSans.className
           )}
         >

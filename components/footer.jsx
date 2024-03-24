@@ -11,8 +11,12 @@ import { poppins } from "@/fonts";
 export default function Footer() {
   return (
     <div
+      //   style={{
+      //     background:
+      //       " linear-gradient(258deg, rgba(40,61,44,1) 46%, rgba(103,40,4,1) 100%)",
+      //   }}
       className={cn(
-        "bg-black mt-10 pt-10 relative bottom-0 text-white w-full sm:h-full",
+        "bg-[#434334] mt-10 pt-10 relative bottom-0 text-white w-full sm:h-full",
         poppins.className
       )}
     >
