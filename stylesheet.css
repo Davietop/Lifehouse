@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-Bold.eot');
+    src: local('Kostic Serif Bold'), local('KosticSerif-Bold'),
+        url('KosticSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-Bold.woff2') format('woff2'),
+        url('KosticSerif-Bold.woff') format('woff'),
+        url('KosticSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-Italic.eot');
+    src: local('Kostic Serif Italic'), local('KosticSerif-Italic'),
+        url('KosticSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-Italic.woff2') format('woff2'),
+        url('KosticSerif-Italic.woff') format('woff'),
+        url('KosticSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-MediumItalic.eot');
+    src: local('Kostic Serif Medium Italic'), local('KosticSerif-MediumItalic'),
+        url('KosticSerif-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-MediumItalic.woff2') format('woff2'),
+        url('KosticSerif-MediumItalic.woff') format('woff'),
+        url('KosticSerif-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-Regular.eot');
+    src: local('Kostic Serif'), local('KosticSerif-Regular'),
+        url('KosticSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-Regular.woff2') format('woff2'),
+        url('KosticSerif-Regular.woff') format('woff'),
+        url('KosticSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-BoldItalic.eot');
+    src: local('Kostic Serif Bold Italic'), local('KosticSerif-BoldItalic'),
+        url('KosticSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-BoldItalic.woff2') format('woff2'),
+        url('KosticSerif-BoldItalic.woff') format('woff'),
+        url('KosticSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kostic Serif';
+    src: url('KosticSerif-Medium.eot');
+    src: local('Kostic Serif Medium'), local('KosticSerif-Medium'),
+        url('KosticSerif-Medium.eot?#iefix') format('embedded-opentype'),
+        url('KosticSerif-Medium.woff2') format('woff2'),
+        url('KosticSerif-Medium.woff') format('woff'),
+        url('KosticSerif-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
